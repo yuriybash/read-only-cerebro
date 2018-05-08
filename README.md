@@ -4,7 +4,7 @@ Sample nginx + [cerebro](https://github.com/lmenezes/cerebro) config to prevent 
 
 Layout (cerebro/second nginx proxy ports are illustrative):
 
-![read_only_cerebro](https://github.com/yuriybash/read-only-cerebro/blob/master/assets/read_only_cerebro.png "read_only_cerebro")
+![read_only_cerebro](https://github.com/yuriybash/read-only-cerebro/blob/master/assets/read-only-cerebro.png "read_only_cerebro")
 
 
 - GET request to cerebro (OK):
