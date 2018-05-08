@@ -2,8 +2,6 @@
 
 Sample nginx + [cerebro](https://github.com/lmenezes/cerebro) config to prevent destructive Elasticsearch actions by allowing all GET and POST requests to cerebro and _only_ GET requests to Elasticsearch. POST requests are required for form data submission to cerebro, but are not necessary for reading data from ES.
 
-Layout (cerebro/second nginx proxy ports are illustrative):
-
 ![read_only_cerebro](https://github.com/yuriybash/read-only-cerebro/blob/master/assets/read-only-cerebro.png "read_only_cerebro")
 
 
