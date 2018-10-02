@@ -27,7 +27,7 @@ curl localhost:8080
 - GET request to cerebro, results in GET request to ES (OK):
 
 ```
-curl --header "Content-Type: application/json" \
+curl --H \
   --request POST \
   --data-binary 'http://localhost:9000/rest/request' \
   http://localhost:9000/rest/request
