@@ -5,7 +5,7 @@ Sample nginx + [cerebro](https://github.com/lmenezes/cerebro) config to prevent 
 Layout (cerebro/second nginx proxy ports are illustrative):
 
 ```
-user/internet  --> nginx (:80) --> cerebro (:9000) --> nginx (:9300) --> ES
+user/internet  --> nginx (:80/:443) --> cerebro (:9000) --> nginx (:9300) --> ES
 ```
 
 
